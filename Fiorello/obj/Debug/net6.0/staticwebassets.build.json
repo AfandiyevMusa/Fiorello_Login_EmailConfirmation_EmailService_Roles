@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "vcZPfU8POSFUz38n0rTIIigwTMOo/uQGvD+1FW3vOTo=",
+  "Hash": "KEt5tWFUXS2FFp6l2xQTYuiAiSSPDFpmoSphGR3/YcM=",
   "Source": "Fiorello",
   "BasePath": "_content/Fiorello",
   "Mode": "Default",
@@ -15808,6 +15808,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/img/testimonial-img-2.png"
+    },
+    {
+      "Identity": "/Users/afandiyevmusa/Desktop/P414Code/Backend/ASP.NET/HW/Fiorello_Login_EmailConfirmation_EmailService_Roles/Fiorello/wwwroot/js/account.js",
+      "SourceId": "Fiorello",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/afandiyevmusa/Desktop/P414Code/Backend/ASP.NET/HW/Fiorello_Login_EmailConfirmation_EmailService_Roles/Fiorello/wwwroot/",
+      "BasePath": "_content/Fiorello",
+      "RelativePath": "js/account.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/account.js"
     },
     {
       "Identity": "/Users/afandiyevmusa/Desktop/P414Code/Backend/ASP.NET/HW/Fiorello_Login_EmailConfirmation_EmailService_Roles/Fiorello/wwwroot/js/basket.js",

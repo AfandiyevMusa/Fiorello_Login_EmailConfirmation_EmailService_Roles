@@ -3717,6 +3717,10 @@
       "PackagePath": "staticwebassets/img/testimonial-img-2.png"
     },
     {
+      "Id": "/Users/afandiyevmusa/Desktop/P414Code/Backend/ASP.NET/HW/Fiorello_Login_EmailConfirmation_EmailService_Roles/Fiorello/wwwroot/js/account.js",
+      "PackagePath": "staticwebassets/js/account.js"
+    },
+    {
       "Id": "/Users/afandiyevmusa/Desktop/P414Code/Backend/ASP.NET/HW/Fiorello_Login_EmailConfirmation_EmailService_Roles/Fiorello/wwwroot/js/basket.js",
       "PackagePath": "staticwebassets/js/basket.js"
     },

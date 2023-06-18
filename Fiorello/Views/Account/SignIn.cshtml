@@ -4,6 +4,10 @@
     ViewData["Title"] = "SignIn";
 }
 
+@section CSS{
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+}
+
 <style>
     .gradient-custom-3 {
         /* fallback for old browsers */
@@ -22,6 +26,17 @@
         /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         background: linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1))
     }
+
+    .eye {
+        position: relative;
+        left: 90%;
+        bottom: 35px;
+        transition: all 0.5s;
+    }
+
+        .eye:hover {
+            color: gray;
+        }
 </style>
 
 
@@ -42,11 +57,12 @@
                                     <label class="form-label" for="form3Example1cg">Enter Email or Username</label>
                                     <input asp-for="EmailOrUsername" id="form3Example1cg" class="form-control form-control-lg" />
                                     <span class="text-danger" asp-validation-for="EmailOrUsername"></span>
-                                </div> 
+                                </div>
 
                                 <div class="form-outline mb-4">
                                     <label class="form-label" for="form3Example4cg">Enter Password</label>
-                                    <input asp-for="Password" id="form3Example4cg" class="form-control form-control-lg" />
+                                    <input asp-for="Password" id="form3Example4cg" type="password" class="form-control form-control-lg" />
+                                    <i class="fa-solid eye fa-eye-slash" style="cursor:pointer" id="checkeye"></i>
                                     <span class="text-danger" asp-validation-for="Password"></span>
                                 </div>
 
@@ -75,4 +91,5 @@
 
 @section Scripts{
     <partial name="_ValidationScriptsPartial" />
+    <script src="~/js/account.js"></script>
 }
