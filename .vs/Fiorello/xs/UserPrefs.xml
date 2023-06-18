@@ -1,0 +1,42 @@
+﻿<Properties StartupConfiguration="{F911F83E-21EA-4FE7-AAB5-F271D8365750}|Default">
+  <MonoDevelop.Ide.ItemProperties.Fiorello PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Fiorello/Areas/Admin/Controllers/CategoryController.cs">
+    <Files>
+      <File FileName="Fiorello/Areas/Admin/Controllers/ArchiveController.cs" Line="17" Column="5" />
+      <File FileName="Fiorello/Areas/Admin/Controllers/CategoryController.cs" Line="47" Column="44" />
+      <File FileName="Fiorello/Areas/Admin/Controllers/DashboardController.cs" Line="13" Column="44" />
+      <File FileName="Fiorello/Areas/Admin/Controllers/ProductController.cs" Line="22" Column="44" />
+      <File FileName="Fiorello/Areas/Admin/Controllers/SliderController.cs" Line="18" Column="44" />
+      <File FileName="Fiorello/Areas/Admin/Controllers/SliderInfoController.cs" Line="19" Column="20" />
+      <File FileName="Fiorello/Areas/Admin/Views/Category/Index.cshtml" Line="14" Column="23" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Fiorello" expanded="True">
+            <Node name="Fiorello" expanded="True">
+              <Node name="Areas" expanded="True">
+                <Node name="Admin" expanded="True">
+                  <Node name="Controllers" expanded="True">
+                    <Node name="CategoryController.cs" selected="True" />
+                  </Node>
+                  <Node name="Views" expanded="True">
+                    <Node name="Category" expanded="True" />
+                  </Node>
+                </Node>
+              </Node>
+              <Node name="Controllers" expanded="True" />
+              <Node name="Helpers" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>
